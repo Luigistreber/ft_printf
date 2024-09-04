@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: luigi_streber <luigi_streber@student.42    +#+  +:+       +#+         #
+#    By: lubravo- <lubravo-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/06/06 19:31:46 by luigi_streb       #+#    #+#              #
-#    Updated: 2024/06/11 22:48:12 by luigi_streb      ###   ########.fr        #
+#    Created: 2024/09/04 15:27:54 by lubravo-          #+#    #+#              #
+#    Updated: 2024/09/04 17:46:17 by lubravo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ UTILS = ft_putchar.c\
 		ft_printf.c\
 		ft_specifier.c		
 
-INCLUDE = libftprinth.h
+INCLUDE = libftprintf.h
 
 OBJS = $(UTILS:.c=.o)
 
@@ -45,4 +45,4 @@ fclean: clean
 
 re: fclean $(NAME)
 
-.PHONY: all clean fclean re 
+.PHONY: all clean fclean re
